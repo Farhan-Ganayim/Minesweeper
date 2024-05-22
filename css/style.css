@@ -1,0 +1,41 @@
+body {
+    
+    /* align: center;  how to align the body to the center auto????!!!*/
+    /* margin-top: 25%;  
+    margin-left: 50%; */
+    margin-left:   35%;
+    margin-top: 200px;
+    
+}
+
+.Minesweeper-board {
+    display: inline-block;
+    border: 2px solid #333;
+    background-color: rgb(238, 232, 232);
+    padding: 10px;
+}
+
+.Minesweeper-board table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.Minesweeper-board td {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    
+}
+
+.Minesweeper-board td:hover {
+    background-color: #d1d4d1;
+}
+
+
+
+
+
