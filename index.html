@@ -1,13 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minesweeper</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-    <div class = "Minesweeper-board">
+
+<body onload="onInitGame()">
+    <div class="Level-btns">
+        <button class="Btn" onclick="on">Level 1</button>
+        <button class="Btn">Level 2</button>
+        <button class="Btn">Level 3</button>
+    </div>
+    <div class="Minesweeper-board">
+
         <table>
             <tbody>
             </tbody>
@@ -16,6 +24,7 @@
     </div>
     <script src="js/utils.js"></script>
     <script src="js/game.js"></script>
-    
+
 </body>
+
 </html>

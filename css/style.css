@@ -35,6 +35,20 @@ body {
     background-color: #d1d4d1;
 }
 
+.Level-btns {
+    margin-bottom: 50px;
+    
+    
+}
+
+.Level-btns .Btn {
+    padding: 10px 20px;
+    border: 5px solid rgb(197, 194, 194);
+    font-size: 15px;
+    cursor: pointer;
+    color:rgb(34, 0, 255)
+}
+
 
 
 

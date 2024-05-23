@@ -14,6 +14,7 @@ function createMat(ROWS, COLS) {
     for (var i = 0; i < ROWS; i++) {
         const row = []
         for (var j = 0; j < COLS; j++) {
+            
             row.push({
                 minesAroundCount: 0,
                 isShown: false,
